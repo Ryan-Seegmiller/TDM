@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e194ba9dacf1b34aa63a0b152ea7658, type: 3}
+  m_Name: EndTile
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 1226556150, guid: 456dfc007cf56c048befbc9fffaf2f4e, type: 3}
+  m_DefaultGameObject: {fileID: 481283943142870916, guid: 80f87ec9b3bd2db4d9629e51bc693c15, type: 3}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 0}
+    m_GameObject: {fileID: 481283943142870916, guid: 80f87ec9b3bd2db4d9629e51bc693c15, type: 3}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 0
+    m_RandomTransform: 0
+    m_Neighbors: 05000000
+    m_NeighborPositions:
+    - {x: 0, y: 1, z: 0}
+    m_RuleTransform: 1
+  customField: 0
+  connectTiles:
+  - {fileID: 11400000, guid: 10b5aeab0a9245244a2d581bf44fada1, type: 2}

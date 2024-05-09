@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fff36be47f89e4ea97f8bbbaa0226d, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  itemsData:
+  - itemName: HealthPotion
+    itemDescription: Heals 30 percent of health
+    itemObject: {fileID: 7652619847313277882, guid: 2d4348abdcc97aa4ca58d70147f040e2, type: 3}
+    tint: {r: 0.15136695, g: 1, b: 0, a: 1}
+    sprite: {fileID: 21300000, guid: e4d2888aaf0a34b41a019b10fd56c4b7, type: 3}
+    mesh: {fileID: 0}
+    maxHoldableAmount: 2
+    isInventory: 1
+    pickupText:
+      text: Health Potion
+      textColor: {r: 0.15294118, g: 1, b: 0, a: 1}
+      size: {x: 0, y: 0, z: 0}
+      duration: 1
+      speed: 1
+      offset: {x: 0, y: 1, z: 0}
+      direction: {x: 0, y: 1, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0
+  - itemName: GoldKey
+    itemDescription: 
+    itemObject: {fileID: -6363216382455407155, guid: 7df8714b4704c4b4d9f504311c8d6a56, type: 3}
+    tint: {r: 0.9339623, g: 0.7882558, b: 0.27666426, a: 1}
+    sprite: {fileID: 21300000, guid: b1a01ed28c3746145a7e787d9e4b591e, type: 3}
+    mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    maxHoldableAmount: 2
+    isInventory: 1
+    pickupText:
+      text: Key Acquired
+      textColor: {r: 0.93333334, g: 0.7882353, b: 0.2784314, a: 1}
+      size: {x: 0, y: 0, z: 0}
+      duration: 2
+      speed: 0.2
+      offset: {x: 0, y: 1, z: 0}
+      direction: {x: 0, y: 1, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0
+  - itemName: Arrow
+    itemDescription: 
+    itemObject: {fileID: -8499522175251029120, guid: ba5f17631a7d4ec47acae20f183478f7, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    sprite: {fileID: 21300000, guid: 369a44b053185134a9ccb7523061065b, type: 3}
+    mesh: {fileID: 0}
+    maxHoldableAmount: 10
+    isInventory: 1
+    pickupText:
+      text: 
+      textColor: {r: 0, g: 0, b: 0, a: 0}
+      size: {x: 0, y: 0, z: 0}
+      duration: 0
+      speed: 0
+      offset: {x: 0, y: 0, z: 0}
+      direction: {x: 0, y: 0, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0
+  - itemName: Gold
+    itemDescription: 
+    itemObject: {fileID: 7425066057677967149, guid: 1db2e97046c1827428630166af9729fc, type: 3}
+    tint: {r: 0.8867924, g: 0.7749755, b: 0.10373794, a: 1}
+    sprite: {fileID: 21300000, guid: d656ad00d0e431340bb30787ed4a311a, type: 3}
+    mesh: {fileID: 0}
+    maxHoldableAmount: 10
+    isInventory: 0
+    pickupText:
+      text: 
+      textColor: {r: 0, g: 0, b: 0, a: 0}
+      size: {x: 0, y: 0, z: 0}
+      duration: 1
+      speed: 1
+      offset: {x: 0, y: 1, z: 0}
+      direction: {x: 0, y: 1, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0
+  - itemName: Platinum
+    itemDescription: 
+    itemObject: {fileID: 7425066057677967149, guid: e4ecd790c33974c4a9ee9c777431f1de, type: 3}
+    tint: {r: 0.4392157, g: 0.75686276, b: 0.8117647, a: 1}
+    sprite: {fileID: 21300000, guid: d656ad00d0e431340bb30787ed4a311a, type: 3}
+    mesh: {fileID: 0}
+    maxHoldableAmount: 10
+    isInventory: 0
+    pickupText:
+      text: 
+      textColor: {r: 0, g: 0, b: 0, a: 0}
+      size: {x: 0, y: 0, z: 0}
+      duration: 1
+      speed: 1
+      offset: {x: 0, y: 1, z: 0}
+      direction: {x: 0, y: 1, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0
+  - itemName: Silver
+    itemDescription: 
+    itemObject: {fileID: 7425066057677967149, guid: ad7f532c537405f40b26d148659633ac, type: 3}
+    tint: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    sprite: {fileID: 21300000, guid: d656ad00d0e431340bb30787ed4a311a, type: 3}
+    mesh: {fileID: 0}
+    maxHoldableAmount: 10
+    isInventory: 0
+    pickupText:
+      text: 
+      textColor: {r: 0, g: 0, b: 0, a: 0}
+      size: {x: 0, y: 0, z: 0}
+      duration: 1
+      speed: 1
+      offset: {x: 0, y: 1, z: 0}
+      direction: {x: 0, y: 1, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0
+  - itemName: Copper
+    itemDescription: 
+    itemObject: {fileID: 7425066057677967149, guid: 35f41a4ba8126e74d892483ea985cf05, type: 3}
+    tint: {r: 0.7529412, g: 0.5294118, b: 0.16078432, a: 1}
+    sprite: {fileID: 21300000, guid: d656ad00d0e431340bb30787ed4a311a, type: 3}
+    mesh: {fileID: 0}
+    maxHoldableAmount: 10
+    isInventory: 0
+    pickupText:
+      text: 
+      textColor: {r: 0, g: 0, b: 0, a: 0}
+      size: {x: 0, y: 0, z: 0}
+      duration: 1
+      speed: 1
+      offset: {x: 0, y: 1, z: 0}
+      direction: {x: 0, y: 1, z: 0}
+      hasStaticMovement: 0
+      momentaryHoverFloat: 0

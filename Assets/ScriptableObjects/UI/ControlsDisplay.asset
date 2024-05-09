@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbdbae01a1417943a6861926f23e3b5, type: 3}
+  m_Name: ControlsDisplay
+  m_EditorClassIdentifier: 
+  basePrefab: {fileID: 6171554161977063853, guid: 5b7e367c660b63f4d9963a7b59d78d08, type: 3}
+  display:
+  - ID: Movement
+    prompt: To Move
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: 2247d3a35b7595b4db34b2da9054ca93, type: 3}
+    controllerSprite: {fileID: 21300000, guid: 8d41cd9bdc00d7a4aadd2fdf8544fc58, type: 3}
+    activeOnStart: 1
+  - ID: UseItem
+    prompt: Use Item
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: f2b4d9ec9d2b92b40bcbc8663bf7abbf, type: 3}
+    controllerSprite: {fileID: 21300000, guid: e6c9e75361916f042823262b3d06c6ea, type: 3}
+    activeOnStart: 0
+  - ID: Look
+    prompt: Look
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: 63c7a206228c5034e961daee0c616e08, type: 3}
+    controllerSprite: {fileID: 21300000, guid: 9395879226586c84abe72c550bc2eaf2, type: 3}
+    activeOnStart: 1
+  - ID: Attack
+    prompt: Attack
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: f6801434139d2874889b97c0a5e209a3, type: 3}
+    controllerSprite: {fileID: 21300000, guid: 35596d866905e7745854e9552dd011b0, type: 3}
+    activeOnStart: 1
+  - ID: CycleItems
+    prompt: Cycle Items
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: 82890ce633b503c45a0d9dcd5ed0ce4b, type: 3}
+    controllerSprite: {fileID: 21300000, guid: a7888b6fc9878924fb9a5f71425da276, type: 3}
+    activeOnStart: 1
+  - ID: PickUp
+    prompt: PickUp Item
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: c16614f47dce4a04785ce5f62966080c, type: 3}
+    controllerSprite: {fileID: 21300000, guid: cd30c74759c096645a9662804a27ce77, type: 3}
+    activeOnStart: 0
+  - ID: NavigateRunes
+    prompt: Navigate Runes
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: 63c7a206228c5034e961daee0c616e08, type: 3}
+    controllerSprite: {fileID: 21300000, guid: 9395879226586c84abe72c550bc2eaf2, type: 3}
+    activeOnStart: 0
+  - ID: CycleRunes
+    prompt: Cycle Runes
+    mouseAndKeyboardSprite: {fileID: 0}
+    controllerSprite: {fileID: 21300000, guid: de0624c1865870c41af49ca17d58416b, type: 3}
+    activeOnStart: 0
+  - ID: DropItem
+    prompt: Drop Item
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: 0e7bd92b64cd57749a18f0d5ed275873, type: 3}
+    controllerSprite: {fileID: 21300000, guid: 0375b9592e8c3d74e93b5e21004c4e6d, type: 3}
+    activeOnStart: 0
+  - ID: OpenRuneMenu
+    prompt: Open Rune Menu
+    mouseAndKeyboardSprite: {fileID: 21300000, guid: e0c6cd3f45678414898e02c8c91c4bd0, type: 3}
+    controllerSprite: {fileID: 21300000, guid: aaf195359d2ddec4b9e46a3456da8da2, type: 3}
+    activeOnStart: 0
+  groupings:
+  - ID: Runes
+    IDs:
+    - NavigateRunes
+    - CycleRunes
+  - ID: Item
+    IDs:
+    - UseItem
+    - DropItem
+  - ID: MainControls
+    IDs:
+    - CycleItems
+    - Attack
+    - Look
+    - Movement
+  - ID: Mage
+    IDs:
+    - OpenRuneMenu
+    - CycleRunes

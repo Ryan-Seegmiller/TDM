@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8e9409a41d057b54c9639b7b610801e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PreviewGrid: {instanceID: 0}
+  - Null: {fileID: 2800000, guid: d2de18a29a0ac0041bb6da3b756bce47, type: 3}
+  - Any: {fileID: 2800000, guid: 13917e44dc174b3428bbb99330a0fe2c, type: 3}
+  - Connect: {fileID: 2800000, guid: d5242bd6da5563b4283d1b492b38d9db, type: 3}
+  - ConnectOny: {fileID: 2800000, guid: 60b1d192f51da0842ac1e654b9a12eae, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

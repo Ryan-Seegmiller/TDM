@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3910779336903413918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249235007585774322, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694723423328160645, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 894618847, guid: 876b49b880e4f8041b69552507aa66fd, type: 3}
+    - target: {fileID: 8481026440222193049, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: roamDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481026440222193049, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: attackDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481026440222193049, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: targetLocationTolerance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679278985209437905, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_Name
+      value: AI2D-Blob
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679278985209437905, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+--- !u!1 &5636007915605921359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8679278985209437905, guid: 155e3f2774bd63a4495a9b4b1d309026, type: 3}
+  m_PrefabInstance: {fileID: 3910779336903413918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3999980187873640906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636007915605921359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58a2e11154c59b449987247267af37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 0}
+  characterType: 3
+  isPlayer: 0
+  godMode: 0
+  characterID: 
+  XPReward: 2
+  scoreReward: 5
+  attacking: 0
