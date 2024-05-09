@@ -9,4 +9,4 @@ Kill enemeys
 
 SURVIVE!
 
-[Play Now]()
+[Play Now](https://github.com/Ryan-Seegmiller/TDM/archive/refs/heads/main.zip)
